@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>Guida UI — SECAP PRO</title>
+  <link rel="preload" href="assets/Manrope-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="assets/Manrope-Medium.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="assets/Manrope-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="assets/foundations.css?v=1.8" />
+</head>
+<body class="foundation-page">
+  <main class="foundation-shell">
+    <header class="foundation-topbar">
+      <span class="foundation-kicker">Guida agli strumenti</span>
+      <span class="foundation-brand"><img src="assets/secap-pro-logo.svg" alt="SECAP PRO" /></span>
+      <time class="foundation-date" datetime="2026-09-03">03 settembre 2026</time>
+    </header>
+
+    <section class="foundation-hero" aria-labelledby="foundation-title">
+      <div class="foundation-hero-copy">
+        <span class="foundation-hero-label">Guida UI · v1.0</span>
+        <h1 id="foundation-title">Ampio quando orienta.<br />Preciso quando fa lavorare.</h1>
+        <p>Il riferimento comune per creare strumenti chiari, coerenti e riconoscibili come SECAP PRO.</p>
+      </div>
+    </section>
+
+    <section class="foundation-section start-section" id="inizio" aria-labelledby="start-title">
+      <header class="section-intro start-intro">
+        <span class="section-number">00</span>
+        <div class="section-copy">
+          <h2 id="start-title">Comincia qui</h2>
+          <p>Usa questa guida mentre crei o sistemi uno strumento. Il percorso è sempre lo stesso.</p>
+        </div>
+      </header>
+      <ol class="start-steps">
+        <li>
+          <span>1</span>
+          <div><strong>Scegli</strong><p>Parti dal modello di schermata più vicino al tuo lavoro.</p></div>
+        </li>
+        <li>
+          <span>2</span>
+          <div><strong>Riusa</strong><p>Componi la schermata con i pezzi SECAP PRO già pronti.</p></div>
+        </li>
+        <li>
+          <span>3</span>
+          <div><strong>Controlla</strong><p>Verifica risultato, stati e leggibilità anche su telefono.</p></div>
+        </li>
+      </ol>
+      <nav class="guide-index" aria-label="Indice della guida">
+        <a href="#riconosci"><span>01</span>Riconosci SECAP PRO</a>
+        <a href="#componenti"><span>02</span>Usa i pezzi pronti</a>
+        <a href="#modelli"><span>03</span>Costruisci una schermata</a>
+        <a href="#kit-ai"><span>04</span>Lavora con l’AI</a>
+        <a href="#checklist"><span>05</span>Controlla la consegna</a>
+        <a href="#approfondimenti"><span>+</span>Approfondimenti tecnici</a>
+      </nav>
+    </section>
+
+    <section class="foundation-section recognition-section" id="riconosci" aria-labelledby="principles-title">
+      <header class="section-intro">
+        <span class="section-number">01</span>
+        <div class="section-copy">
+          <h2 id="principles-title">Riconosci SECAP PRO</h2>
+          <p>Quattro segnali rendono ogni strumento parte dello stesso ambiente di lavoro.</p>
+        </div>
+      </header>
+      <div class="principles-grid">
+        <article class="principle-card">
+          <span class="principle-index">01</span>
+          <h3>Contesto evidente</h3>
+          <p>Area di lavoro, strumento e stato corrente si riconoscono subito.</p>
+        </article>
+        <article class="principle-card">
+          <span class="principle-index">02</span>
+          <h3>Gerarchia netta</h3>
+          <p>Titoli, spazio e ordine indicano cosa conta prima delle decorazioni.</p>
+        </article>
+        <article class="principle-card">
+          <span class="principle-index">03</span>
+          <h3>Blu con uno scopo</h3>
+          <p>Il blu segnala azione, selezione, collegamento o focus.</p>
+        </article>
+        <article class="principle-card">
+          <span class="principle-index">04</span>
+          <h3>Stati leggibili</h3>
+          <p>Disponibilità, avanzamento ed errori sono sempre detti con parole chiare.</p>
+        </article>
+      </div>
+
+      <div class="recognition-comparison" aria-label="Confronto fra uno strumento coerente e uno da rivedere">
+        <article class="recognition-example recognition-example-good">
+          <div class="recognition-example-head">
+            <span class="recognition-verdict"><i aria-hidden="true">✓</i> È SECAP PRO</span>
+            <span>Area di lavoro · Cantiere Fossata</span>
+          </div>
+          <div class="recognition-demo">
+            <div class="recognition-demo-copy">
+              <small>Registro documenti</small>
+              <strong>Verbali di coordinamento</strong>
+              <p>12 verbali · 3 temi da verificare</p>
+            </div>
+            <span class="recognition-action">Nuovo verbale</span>
+          </div>
+          <ul>
+            <li>Il contesto è esplicito.</li>
+            <li>Una sola azione principale.</li>
+            <li>Lo stato è scritto e comprensibile.</li>
+          </ul>
+        </article>
+
+        <article class="recognition-example recognition-example-review">
+          <div class="recognition-example-head">
+            <span class="recognition-verdict"><i aria-hidden="true">×</i> Da rivedere</span>
+            <span>Strumento</span>
+          </div>
+          <div class="recognition-demo recognition-demo-review">
+            <div class="recognition-demo-copy">
+              <small>Dashboard</small>
+              <strong>Gestione dati</strong>
+              <p>Apri, modifica, crea o configura</p>
+            </div>
+            <span class="recognition-action">Vai</span>
+          </div>
+          <ul>
+            <li>Non è chiaro a quale area appartenga.</li>
+            <li>Titoli e azioni sono generici.</li>
+            <li>Il colore non comunica uno stato preciso.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="foundation-section components-section" id="componenti" aria-labelledby="components-title">
+      <header class="section-intro">
+        <span class="section-number">02</span>
+        <div class="section-copy">
+          <h2 id="components-title">Usa i pezzi pronti</h2>
+          <p>Parti da questi elementi prima di disegnarne di nuovi. Aspetto e comportamento restano uguali in tutti gli strumenti.</p>
+        </div>
+      </header>
+
+      <div class="component-catalog">
+        <article class="component-sample">
+          <header class="component-sample-head">
+            <div><span>Azioni</span><h3>Pulsanti</h3></div>
+            <p>Una sola azione principale per gruppo.</p>
+          </header>
+          <div class="component-stage component-action-stage">
+            <button class="kit-button kit-button-primary" type="button">Crea verbale</button>
+            <button class="kit-button kit-button-secondary" type="button">Annulla</button>
+            <button class="kit-button kit-button-quiet" type="button">Mostra dettagli</button>
+            <button class="kit-button" type="button" disabled>Non disponibile</button>
+          </div>
+        </article>
+
+        <article class="component-sample">
+          <header class="component-sample-head">
+            <div><span>Inserimento</span><h3>Campi</h3></div>
+            <p>Etichetta sempre visibile e aiuto solo quando serve.</p>
+          </header>
+          <div class="component-stage component-field-stage">
+            <label class="kit-field">
+              <span>Oggetto della riunione</span>
+              <input type="text" value="Coordinamento opere strutturali" readonly />
+              <small>Comparirà nel registro e nel documento.</small>
+            </label>
+            <label class="kit-search">
+              <span class="sr-only">Cerca verbali</span>
+              <svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+              <input type="search" placeholder="Cerca verbali" readonly />
+            </label>
+          </div>
+        </article>
+
+        <article class="component-sample">
+          <header class="component-sample-head">
+            <div><span>Scelta</span><h3>Tab e filtri</h3></div>
+            <p>Le tab cambiano vista; i filtri restringono i risultati.</p>
+          </header>
+          <div class="component-stage component-choice-stage">
+            <div class="kit-tabs" role="tablist" aria-label="Esempio di viste">
+              <button type="button" role="tab" aria-selected="true">Temi <span>24</span></button>
+              <button type="button" role="tab" aria-selected="false">Verbali <span>12</span></button>
+            </div>
+            <div class="kit-filters" aria-label="Esempio di filtri">
+              <button type="button" aria-pressed="true">Tutti</button>
+              <button type="button" aria-pressed="false">Da verificare</button>
+              <button type="button" aria-pressed="false">Chiusi</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="component-sample">
+          <header class="component-sample-head">
+            <div><span>Feedback</span><h3>Stati</h3></div>
+            <p>Il colore accompagna sempre una parola comprensibile.</p>
+          </header>
+          <div class="component-stage component-status-stage">
+            <span class="kit-status kit-status-info">In revisione</span>
+            <span class="kit-status kit-status-success">Completato</span>
+            <span class="kit-status kit-status-warning">Da verificare</span>
+            <span class="kit-status kit-status-danger">Richiede attenzione</span>
+            <span class="kit-status kit-status-neutral">Non disponibile</span>
+          </div>
+        </article>
+
+        <article class="component-sample component-sample-wide">
+          <header class="component-sample-head">
+            <div><span>Accesso</span><h3>Card strumento</h3></div>
+            <p>La card identifica lo strumento, il suo stato e gli accessi disponibili.</p>
+          </header>
+          <div class="component-stage">
+            <div class="kit-tool-card">
+              <div class="kit-tool-card-head">
+                <span class="kit-tool-mark" aria-hidden="true">V</span>
+                <span class="kit-status kit-status-success">Operativo</span>
+              </div>
+              <div class="kit-tool-copy">
+                <h4>Verbali di coordinamento</h4>
+                <p>Genera, consulta e aggiorna i verbali dell’area di cantiere.</p>
+              </div>
+              <div class="kit-tool-links">
+                <span>Nuovo verbale <small>Avvia il generatore</small></span>
+                <span>Apri registro <small>Consulta documenti e temi</small></span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="component-sample component-sample-wide">
+          <header class="component-sample-head">
+            <div><span>Elenco</span><h3>Riga operativa</h3></div>
+            <p>Identità prima, informazioni utili al centro, stato e azione alla fine.</p>
+          </header>
+          <div class="component-stage component-row-stage">
+            <div class="kit-operational-row">
+              <span class="kit-row-mark" aria-hidden="true">12</span>
+              <div class="kit-row-copy"><strong>Coordinamento opere strutturali</strong><small>VERB-2026-012 · 18 settembre 2026</small></div>
+              <span class="kit-status kit-status-warning">Da verificare</span>
+              <button class="kit-row-action" type="button">Apri</button>
+            </div>
+            <div class="kit-operational-row kit-operational-row-muted">
+              <span class="kit-row-mark" aria-hidden="true">11</span>
+              <div class="kit-row-copy"><strong>Verifica impianti piano terra</strong><small>VERB-2026-011 · 11 settembre 2026</small></div>
+              <span class="kit-status kit-status-success">Completato</span>
+              <button class="kit-row-action" type="button">Apri</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="foundation-section patterns-section" id="modelli" aria-labelledby="patterns-title">
+      <header class="section-intro">
+        <span class="section-number">03</span>
+        <div class="section-copy">
+          <h2 id="patterns-title">Costruisci una schermata</h2>
+          <p>Scegli il modello più vicino al lavoro da svolgere e mantieni lo stesso ordine delle informazioni.</p>
+        </div>
+      </header>
+
+      <div class="pattern-list">
+        <article class="pattern-card">
+          <div class="pattern-copy">
+            <span class="pattern-number">01</span>
+            <h3>Cruscotto</h3>
+            <p>Fa scegliere dove lavorare e mostra ciò che richiede attenzione.</p>
+            <ol><li>Saluto e orientamento</li><li>Aree di lavoro</li><li>Attività aperte</li></ol>
+          </div>
+          <div class="pattern-preview pattern-dashboard" aria-label="Schema del cruscotto">
+            <div class="pattern-topline"><i></i><i></i><i></i></div>
+            <div class="pattern-heading"><strong>Ciao, Enrico.</strong><span>Le tue aree di lavoro</span></div>
+            <div class="pattern-workspaces"><i></i><i></i><i></i></div>
+            <div class="pattern-activity"><span></span><span></span></div>
+          </div>
+        </article>
+
+        <article class="pattern-card">
+          <div class="pattern-copy">
+            <span class="pattern-number">02</span>
+            <h3>Area di lavoro</h3>
+            <p>Rende riconoscibile il contesto e raccoglie strumenti e persone.</p>
+            <ol><li>Identità dell’area</li><li>Strumenti e Membri</li><li>Disponibilità degli strumenti</li></ol>
+          </div>
+          <div class="pattern-preview pattern-workspace" aria-label="Schema di un’area di lavoro">
+            <div class="pattern-area-hero"><span>CF</span><div><small>Cantiere</small><strong>Fossata</strong></div></div>
+            <div class="pattern-mini-tabs"><b>Strumenti</b><span>Membri</span></div>
+            <div class="pattern-tool-grid"><i></i><i></i></div>
+          </div>
+        </article>
+
+        <article class="pattern-card">
+          <div class="pattern-copy">
+            <span class="pattern-number">03</span>
+            <h3>Registro</h3>
+            <p>Aiuta a trovare, confrontare e aprire documenti o temi.</p>
+            <ol><li>Contesto compatto</li><li>Ricerca e filtri</li><li>Elenco responsive</li></ol>
+          </div>
+          <div class="pattern-preview pattern-registry" aria-label="Schema di un registro">
+            <div class="pattern-registry-head"><div><small>Cantiere Fossata</small><strong>Verbali</strong></div><b>Nuovo</b></div>
+            <div class="pattern-registry-tools"><span>Cerca…</span><i></i><i></i><i></i></div>
+            <div class="pattern-registry-rows"><span></span><span></span><span></span></div>
+          </div>
+        </article>
+
+        <article class="pattern-card">
+          <div class="pattern-copy">
+            <span class="pattern-number">04</span>
+            <h3>Generatore</h3>
+            <p>Accompagna un’attività complessa dividendola in passaggi chiari.</p>
+            <ol><li>Avanzamento visibile</li><li>Pannelli numerati</li><li>Conferma persistente</li></ol>
+          </div>
+          <div class="pattern-preview pattern-generator" aria-label="Schema di un generatore">
+            <div class="pattern-progress"><b></b><b></b><b></b></div>
+            <div class="pattern-generator-step"><span>1</span><div><strong>Trascrizione</strong><i></i></div></div>
+            <div class="pattern-generator-step"><span>2</span><div><strong>Riunione</strong><i></i><i></i></div></div>
+            <div class="pattern-confirm"><span>Pronto per l’analisi</span><b>Continua</b></div>
+          </div>
+        </article>
+
+        <article class="pattern-card">
+          <div class="pattern-copy">
+            <span class="pattern-number">05</span>
+            <h3>Amministrazione</h3>
+            <p>Gestisce molti oggetti senza perdere contesto e leggibilità.</p>
+            <ol><li>Riepilogo iniziale</li><li>Un ambito per tab</li><li>Gestione tramite righe e dialoghi</li></ol>
+          </div>
+          <div class="pattern-preview pattern-admin" aria-label="Schema dell’amministrazione">
+            <div class="pattern-stats"><span></span><span></span><span></span></div>
+            <div class="pattern-mini-tabs"><b>Persone</b><span>Aree</span><span>Strumenti</span></div>
+            <div class="pattern-admin-rows"><i></i><i></i><i></i></div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="pattern-rule">
+        <strong>Regola pratica</strong>
+        <p>Se una schermata combina più modelli, uno solo deve restare dominante. Un registro può aprire un dialogo, ma non deve trasformarsi in un cruscotto.</p>
+      </aside>
+    </section>
+
+    <section class="foundation-section ai-section" id="kit-ai" aria-labelledby="ai-title">
+      <header class="section-intro">
+        <span class="section-number">04</span>
+        <div class="section-copy">
+          <h2 id="ai-title">Sistema uno strumento con l’AI</h2>
+          <p>Fornisci all’AI lo strumento, i riferimenti SECAP PRO e un incarico preciso. Parti da questo pacchetto.</p>
+        </div>
+      </header>
+
+      <div class="ai-kit-download">
+        <div class="ai-kit-copy">
+          <span>IL MATERIALE DA ALLEGARE</span>
+          <h3>Prima scarica il kit SECAP PRO</h3>
+          <p>Contiene regole, componenti, modelli, token e tutti gli incarichi. Allegalo interamente all’AI insieme alla cartella dello strumento.</p>
+        </div>
+        <ol class="ai-kit-flow">
+          <li><span>1</span>Scarica il kit</li>
+          <li><span>2</span>Allega kit e strumento</li>
+          <li><span>3</span>Copia l’incarico</li>
+        </ol>
+        <a class="kit-button kit-button-primary ai-kit-button" href="downloads/secap-pro-ai-kit.zip" download>Scarica il kit per l’AI</a>
+      </div>
+
+      <article class="ai-prompt-card">
+        <header class="ai-prompt-head">
+          <div>
+            <span>Pacchetto 01 · Revisione</span>
+            <h3>Raddrizza uno strumento esistente</h3>
+            <p>Allinea aspetto e usabilità a SECAP PRO senza riscrivere le funzioni che già lavorano.</p>
+          </div>
+          <span class="kit-status kit-status-success">Pronto all’uso</span>
+        </header>
+
+        <div class="ai-prompt-body">
+          <div class="ai-input-list">
+            <h4>Cosa fornire all’AI</h4>
+            <ul>
+              <li><span>1</span><p><strong>Lo strumento</strong>I file HTML, CSS e JavaScript o la cartella del progetto.</p></li>
+              <li><span>2</span><p><strong>I riferimenti</strong>Questa guida, il UI kit e una schermata SECAP PRO simile.</p></li>
+              <li><span>3</span><p><strong>I vincoli</strong>Funzioni da conservare e dati che non devono essere condivisi.</p></li>
+            </ul>
+          </div>
+
+          <div class="ai-prompt-actions">
+            <div>
+              <span>ISTRUZIONI PER L’AI</span>
+              <strong>Revisione completa, senza cambiare il flusso</strong>
+            </div>
+            <div>
+              <button class="kit-button kit-button-primary" type="button" data-copy-prompt="repair-tool-prompt">Copia istruzioni</button>
+              <a class="kit-button kit-button-secondary" href="downloads/raddrizza-strumento-secap-pro.md" download>Scarica .md</a>
+            </div>
+          </div>
+
+          <details class="ai-prompt-details">
+            <summary>Leggi le istruzioni complete</summary>
+            <pre id="repair-tool-prompt">Devi rivedere questo strumento e renderlo coerente con SECAP PRO, conservando le funzioni e il flusso operativo esistenti. Usa tutti i file del kit SECAP PRO allegato come fonte visiva e implementativa.
+
+Prima di modificare:
+1. analizza i file e descrivi brevemente struttura, flusso e dipendenze;
+2. individua differenze rispetto alla guida UI SECAP PRO e alla schermata di riferimento;
+3. segnala eventuali dubbi che potrebbero cambiare il comportamento dello strumento;
+4. non modificare dati, API, logica applicativa o formati di uscita se non è necessario per l’interfaccia.
+
+Durante la revisione:
+- riusa colori, tipografia, spaziature, raggi e componenti SECAP PRO già disponibili;
+- rendi sempre riconoscibili area di lavoro, strumento e stato corrente;
+- usa il blu SECAP soltanto per azioni, selezioni, collegamenti e focus;
+- mantieni una sola azione principale per ogni gruppo di azioni;
+- usa etichette esplicite: il colore non deve essere l’unico segnale di stato;
+- progetta anche gli stati vuoto, caricamento, errore e non disponibile quando pertinenti;
+- conserva focus visibile, etichette dei campi e controlli facilmente selezionabili;
+- evita decorazioni, ombre e componenti nuovi quando esiste già un equivalente SECAP PRO;
+- mantieni l’interfaccia utilizzabile su desktop 1344 × 1000 e mobile 390 × 844;
+- impedisci lo scorrimento orizzontale su mobile.
+
+Lavora con modifiche piccole e verificabili. Non inserire credenziali, dati personali, verbali, trascrizioni o dati reali nel codice o negli esempi.
+
+Prima di concludere:
+1. verifica che il flusso originale funzioni ancora;
+2. controlla desktop e mobile;
+3. verifica gli stati interattivi e i messaggi;
+4. esegui i test disponibili senza effettuare chiamate AI reali;
+5. restituisci un riepilogo semplice delle modifiche, dei controlli eseguiti e degli eventuali punti ancora da decidere.
+
+Consegna l’intera cartella di lavoro aggiornata con un file RIEPILOGO-MODIFICHE.md. Non creare repository, commit, push o pull request e non tentare il merge nel progetto principale.</pre>
+          </details>
+
+          <p class="ai-copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </article>
+
+      <div class="ai-prompt-library" aria-label="Altri pacchetti di istruzioni per l’AI">
+        <article class="ai-prompt-card ai-prompt-compact">
+          <header class="ai-compact-head">
+            <span>Pacchetto 02 · Creazione</span>
+            <h3>Crea una nuova schermata</h3>
+            <p>Parte dal modello SECAP PRO più vicino e riusa i componenti disponibili.</p>
+          </header>
+          <div class="ai-compact-actions">
+            <button class="kit-button kit-button-primary" type="button" data-copy-prompt="new-screen-prompt">Copia istruzioni</button>
+            <a class="kit-button kit-button-secondary" href="downloads/crea-schermata-secap-pro.md" download>Scarica .md</a>
+          </div>
+          <details class="ai-prompt-details ai-compact-details">
+            <summary>Leggi le istruzioni</summary>
+            <pre id="new-screen-prompt">Devi creare una nuova schermata coerente con SECAP PRO. Usa tutti i file del kit SECAP PRO allegato come fonte visiva e implementativa.
+
+Prima di sviluppare:
+1. analizza la funzione richiesta e individua il modello più adatto fra Cruscotto, Area di lavoro, Registro, Generatore e Amministrazione;
+2. esamina i file condivisi, i componenti esistenti e una schermata SECAP PRO simile;
+3. proponi in poche righe gerarchia, contenuti, azione principale e stati necessari;
+4. chiedi chiarimenti soltanto se una decisione cambia realmente il flusso o i dati.
+
+Durante lo sviluppo:
+- chiarisci sempre area di lavoro, strumento e stato corrente;
+- riusa shell, colori, tipografia, spaziature, componenti e comportamenti esistenti;
+- mantieni una sola azione principale per ogni gruppo;
+- usa testi specifici del lavoro da svolgere, evitando titoli e pulsanti generici;
+- prepara stati vuoto, caricamento, errore, non disponibile e completamento quando pertinenti;
+- garantisci focus visibile, etichette comprensibili e target interattivi di almeno 44 × 44 px;
+- verifica desktop 1344 × 1000 e mobile 390 × 844 senza scorrimento orizzontale;
+- non introdurre nuovi framework o dipendenze se non sono necessari.
+
+Usa soltanto dati dimostrativi. Non inserire credenziali, persone reali, trascrizioni, verbali o dati di commessa.
+
+Prima di concludere esegui i test disponibili, controlla desktop e mobile e restituisci un riepilogo semplice dei file modificati, delle verifiche e delle decisioni ancora aperte.
+
+Consegna l’intera cartella di lavoro aggiornata con un file RIEPILOGO-MODIFICHE.md. Non creare repository, commit, push o pull request e non tentare il merge nel progetto principale.</pre>
+          </details>
+          <p class="ai-copy-status" role="status" aria-live="polite"></p>
+        </article>
+
+        <article class="ai-prompt-card ai-prompt-compact">
+          <header class="ai-compact-head">
+            <span>Pacchetto 03 · Responsive</span>
+            <h3>Sistema la versione mobile</h3>
+            <p>Ricompone contenuti e azioni per il telefono senza impoverire il flusso.</p>
+          </header>
+          <div class="ai-compact-actions">
+            <button class="kit-button kit-button-primary" type="button" data-copy-prompt="mobile-prompt">Copia istruzioni</button>
+            <a class="kit-button kit-button-secondary" href="downloads/sistema-mobile-secap-pro.md" download>Scarica .md</a>
+          </div>
+          <details class="ai-prompt-details ai-compact-details">
+            <summary>Leggi le istruzioni</summary>
+            <pre id="mobile-prompt">Devi sistemare la versione mobile di questo strumento senza cambiare funzioni, dati o flusso operativo. Usa tutti i file del kit SECAP PRO allegato come fonte visiva e implementativa.
+
+Analizza la schermata a 390 × 844 e individua:
+- scorrimenti orizzontali, tagli e sovrapposizioni;
+- testi, controlli o target troppo piccoli;
+- azioni che escono dallo schermo o perdono priorità;
+- tabelle, filtri e gruppi di campi che non si ricompongono correttamente;
+- elementi secondari che possono essere ridotti, spostati o mostrati progressivamente.
+
+Durante la correzione:
+- conserva contesto, contenuti e azione principale;
+- trasforma le tabelle operative in righe o card leggibili quando necessario;
+- impila i campi mantenendo etichette e ordine logico;
+- lascia scorrere orizzontalmente solo gruppi brevi come tab o filtri, non l’intera pagina;
+- porta i target interattivi ad almeno 44 × 44 px;
+- mantieni visibili focus, stati, errori e conferme;
+- evita di nascondere informazioni necessarie soltanto per farle entrare nello schermo;
+- riusa breakpoint, spaziature e componenti SECAP PRO esistenti.
+
+Verifica almeno 390 × 844 e 1344 × 1000. Controlla che documentElement.scrollWidth non superi la larghezza visibile e prova le azioni principali in entrambe le dimensioni.
+
+Concludi indicando problemi trovati, correzioni eseguite e verifiche completate.
+
+Consegna l’intera cartella di lavoro aggiornata con un file RIEPILOGO-MODIFICHE.md. Non creare repository, commit, push o pull request e non tentare il merge nel progetto principale.</pre>
+          </details>
+          <p class="ai-copy-status" role="status" aria-live="polite"></p>
+        </article>
+
+        <article class="ai-prompt-card ai-prompt-compact">
+          <header class="ai-compact-head">
+            <span>Pacchetto 04 · Stati</span>
+            <h3>Aggiungi gli stati mancanti</h3>
+            <p>Rende comprensibile cosa accade prima, durante e dopo ogni operazione.</p>
+          </header>
+          <div class="ai-compact-actions">
+            <button class="kit-button kit-button-primary" type="button" data-copy-prompt="states-prompt">Copia istruzioni</button>
+            <a class="kit-button kit-button-secondary" href="downloads/aggiungi-stati-secap-pro.md" download>Scarica .md</a>
+          </div>
+          <details class="ai-prompt-details ai-compact-details">
+            <summary>Leggi le istruzioni</summary>
+            <pre id="states-prompt">Devi completare gli stati operativi di questo strumento secondo SECAP PRO, senza modificare la logica applicativa oltre quanto necessario per rappresentarli correttamente. Usa tutti i file del kit SECAP PRO allegato come fonte visiva e implementativa.
+
+Per ogni caricamento dati, elenco, modulo e operazione individua gli stati pertinenti:
+- iniziale o vuoto;
+- caricamento o elaborazione;
+- contenuto disponibile;
+- nessun risultato dopo ricerca o filtri;
+- errore recuperabile;
+- non disponibile o non autorizzato;
+- completamento o conferma.
+
+Per ciascuno stato definisci:
+1. cosa vede l’utente;
+2. un titolo breve e un testo utile;
+3. l’azione possibile, se esiste;
+4. il comportamento di controlli e pulsanti;
+5. il messaggio accessibile per tecnologie assistive.
+
+Regole SECAP PRO:
+- non affidare mai il significato soltanto al colore;
+- non mostrare uno stato vuoto come un errore;
+- durante il caricamento impedisci invii duplicati e spiega cosa sta accadendo;
+- negli errori indica cosa è successo e come riprovare;
+- gli elementi non disponibili devono essere chiari e a basso contrasto, senza sembrare guasti;
+- conferme e messaggi temporanei devono essere annunciati e non interrompere inutilmente il lavoro;
+- riusa badge, pannelli, pulsanti e testi già presenti nel sistema.
+
+Testa ogni stato senza chiamate AI reali e riepiloga gli stati aggiunti, quelli non pertinenti e le verifiche eseguite.
+
+Consegna l’intera cartella di lavoro aggiornata con un file RIEPILOGO-MODIFICHE.md. Non creare repository, commit, push o pull request e non tentare il merge nel progetto principale.</pre>
+          </details>
+          <p class="ai-copy-status" role="status" aria-live="polite"></p>
+        </article>
+
+        <article class="ai-prompt-card ai-prompt-compact">
+          <header class="ai-compact-head">
+            <span>Pacchetto 05 · Verifica</span>
+            <h3>Controlla prima della consegna</h3>
+            <p>Individua incoerenze e regressioni prima di integrare lo strumento.</p>
+          </header>
+          <div class="ai-compact-actions">
+            <button class="kit-button kit-button-primary" type="button" data-copy-prompt="review-prompt">Copia istruzioni</button>
+            <a class="kit-button kit-button-secondary" href="downloads/controlla-strumento-secap-pro.md" download>Scarica .md</a>
+          </div>
+          <details class="ai-prompt-details ai-compact-details">
+            <summary>Leggi le istruzioni</summary>
+            <pre id="review-prompt">Esegui un controllo finale di questo strumento rispetto alla guida UI SECAP PRO. Usa tutti i file del kit SECAP PRO allegato come fonte visiva e implementativa. Inizia con una verifica e non ampliare le funzioni richieste.
+
+Controlla:
+- area di lavoro, strumento e stato corrente chiaramente riconoscibili;
+- gerarchia di titoli, contenuti e azioni;
+- una sola azione principale per gruppo;
+- uso del blu limitato ad azione, selezione, collegamento e focus;
+- riuso dei componenti SECAP PRO senza varianti arbitrarie;
+- testi specifici e comprensibili;
+- stati vuoto, caricamento, errore, non disponibile e completamento;
+- focus visibile, etichette dei campi, contrasto e target interattivi;
+- assenza di scorrimento orizzontale a 390 × 844;
+- corretta composizione a 1344 × 1000;
+- conservazione del flusso, dei dati, delle API e dei formati di uscita;
+- assenza di credenziali e dati reali nei file o negli esempi;
+- test automatici eseguiti senza chiamate AI reali.
+
+Correggi direttamente soltanto problemi chiari e circoscritti che rientrano nell’incarico ricevuto. Per decisioni che cambiano flusso, dati o permessi, fermati e chiedi conferma.
+
+Restituisci il risultato in tre parti:
+1. problemi corretti;
+2. verifiche superate;
+3. decisioni o rischi ancora aperti.
+
+Consegna l’intera cartella di lavoro aggiornata con un file RIEPILOGO-MODIFICHE.md. Non creare repository, commit, push o pull request e non tentare il merge nel progetto principale.</pre>
+          </details>
+          <p class="ai-copy-status" role="status" aria-live="polite"></p>
+        </article>
+      </div>
+
+      <aside class="ai-safety-note">
+        <strong>Prima di condividere</strong>
+        <p>Usa esempi dimostrativi. Rimuovi sempre credenziali, persone reali, trascrizioni, verbali e dati di commessa non destinati alla condivisione.</p>
+      </aside>
+    </section>
+
+    <section class="foundation-section checklist-section" id="checklist" aria-labelledby="checklist-title">
+      <header class="section-intro">
+        <span class="section-number">05</span>
+        <div class="section-copy">
+          <h2 id="checklist-title">Controlla prima della consegna</h2>
+          <p>Spunta ogni voce sulla cartella aggiornata. La consegna è pronta quando tutti i controlli sono completati.</p>
+        </div>
+      </header>
+
+      <div class="checklist-panel">
+        <header class="checklist-progress-head">
+          <div>
+            <span>VERIFICA FINALE</span>
+            <strong data-checklist-count>0 di 12 completati</strong>
+          </div>
+          <div class="checklist-progress-track" aria-hidden="true"><i data-checklist-progress></i></div>
+        </header>
+
+        <div class="checklist-groups">
+          <fieldset class="checklist-group">
+            <legend>Identità e contenuti</legend>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Contesto riconoscibile</strong>Area di lavoro, strumento e stato corrente sono chiari.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Gerarchia ordinata</strong>Titoli, contenuti e azioni seguono una priorità leggibile.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Azione principale unica</strong>Ogni gruppo presenta una sola azione dominante.</span></label>
+          </fieldset>
+
+          <fieldset class="checklist-group">
+            <legend>Sistema e stati</legend>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Pezzi SECAP PRO</strong>Componenti e valori del kit sono stati riutilizzati.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Stati completi</strong>Vuoto, caricamento, errore e completamento sono gestiti quando servono.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Significato esplicito</strong>Testi o icone accompagnano sempre il colore.</span></label>
+          </fieldset>
+
+          <fieldset class="checklist-group">
+            <legend>Utilizzo</legend>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Desktop verificato</strong>La schermata funziona a 1344 × 1000.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Mobile verificato</strong>La schermata funziona a 390 × 844 senza scorrimento orizzontale.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Accessibilità verificata</strong>Focus, etichette, contrasto e target interattivi sono adeguati.</span></label>
+          </fieldset>
+
+          <fieldset class="checklist-group">
+            <legend>Consegna</legend>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Funzioni conservate</strong>Flusso, dati, API e formati di uscita continuano a funzionare.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Dati protetti</strong>Credenziali e dati reali non sono presenti nella cartella.</span></label>
+            <label><input type="checkbox" data-checklist-item /><span><strong>Cartella completa</strong>La cartella è avviabile e contiene RIEPILOGO-MODIFICHE.md.</span></label>
+          </fieldset>
+        </div>
+
+        <footer class="checklist-actions">
+          <p data-checklist-message>Completa i 12 controlli prima della consegna.</p>
+          <div>
+            <button class="kit-button kit-button-quiet" type="button" data-reset-checklist>Azzera</button>
+            <button class="kit-button kit-button-secondary" type="button" data-print-checklist>Stampa</button>
+            <a class="kit-button kit-button-primary" href="downloads/checklist-consegna-secap-pro.md" download>Scarica checklist</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <details class="technical-details" id="approfondimenti">
+      <summary>
+        <span>Approfondimenti tecnici</span>
+        <strong>Colori, tipografia, misure, griglia e accessibilità</strong>
+        <small>Apri questa parte quando servono valori e specifiche precise.</small>
+      </summary>
+
+    <section class="foundation-section" aria-labelledby="color-title">
+      <header class="section-intro">
+        <span class="section-number">06</span>
+        <div class="section-copy">
+          <h2 id="color-title">Colore semantico</h2>
+          <p>Una palette ridotta, con abbastanza contrasto per sostenere interfacce dense senza perdere leggerezza.</p>
+        </div>
+      </header>
+
+      <div class="palette-group">
+        <div class="group-heading">
+          <h3>Identità</h3>
+          <p>Il blu definisce azione, selezione e orientamento.</p>
+        </div>
+        <div class="swatch-grid">
+          <article class="swatch"><span class="swatch-color" style="background:#1646BC"></span><strong>Brand 600</strong><code>#1646BC</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#0F3596"></span><strong>Brand 700</strong><code>#0F3596</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#829DDE"></span><strong>Brand 300</strong><code>#829DDE</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#D9E4FD"></span><strong>Brand 100</strong><code>#D9E4FD</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#EEF3FF"></span><strong>Brand 50</strong><code>#EEF3FF</code></article>
+        </div>
+      </div>
+
+      <div class="palette-group">
+        <div class="group-heading">
+          <h3>Neutri</h3>
+          <p>Quattro testi, tre superfici e due livelli di bordo.</p>
+        </div>
+        <div class="swatch-grid">
+          <article class="swatch"><span class="swatch-color" style="background:#0F0F0F"></span><strong>Ink 950</strong><code>#0F0F0F</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#464646"></span><strong>Ink 700</strong><code>#464646</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#5F6368"></span><strong>Ink 600</strong><code>#5F6368</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#737373"></span><strong>Ink 500</strong><code>#737373</code></article>
+          <article class="swatch"><span class="swatch-color" style="background:#F5F5F5"></span><strong>Surface subtle</strong><code>#F5F5F5</code></article>
+        </div>
+      </div>
+
+      <div class="palette-group">
+        <div class="group-heading">
+          <h3>Stati</h3>
+          <p>Il colore è sempre accompagnato da forma o testo.</p>
+        </div>
+        <div class="state-strip">
+          <div class="state-sample state-info">Informazione</div>
+          <div class="state-sample state-success">Completato</div>
+          <div class="state-sample state-warning">Da verificare</div>
+          <div class="state-sample state-danger">Richiede attenzione</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="type-title">
+      <header class="section-intro">
+        <span class="section-number">07</span>
+        <div class="section-copy">
+          <h2 id="type-title">Tipografia</h2>
+          <p>Manrope è l’unica famiglia. La gerarchia nasce da scala, spazio e peso, non dalla moltiplicazione degli stili.</p>
+        </div>
+      </header>
+      <div class="type-list">
+        <div class="type-row"><span class="type-meta">Manifesto<br />64 / 66 · Regular</span><p class="type-sample type-manifesto">Il buon costruire.</p></div>
+        <div class="type-row"><span class="type-meta">Hero<br />48 / 52 · Regular</span><p class="type-sample type-hero">Ciao, Enrico.</p></div>
+        <div class="type-row"><span class="type-meta">Titolo pagina<br />36 / 42 · Medium</span><p class="type-sample type-page">Aree di lavoro</p></div>
+        <div class="type-row"><span class="type-meta">Titolo sezione<br />24 / 30 · Semibold</span><p class="type-sample type-section">Verbali recenti</p></div>
+        <div class="type-row"><span class="type-meta">Titolo card<br />18 / 24 · Semibold</span><p class="type-sample type-card">Innovation Team</p></div>
+        <div class="type-row"><span class="type-meta">Corpo<br />16 / 24 · Regular</span><p class="type-sample type-body">Ogni documento rimane nel contesto che lo ha prodotto, insieme alle persone e alle decisioni che racconta.</p></div>
+        <div class="type-row"><span class="type-meta">Etichetta<br />12 / 16 · Semibold</span><p class="type-sample type-label">Strumento operativo</p></div>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="mechanics-title">
+      <header class="section-intro">
+        <span class="section-number">08</span>
+        <div class="section-copy">
+          <h2 id="mechanics-title">Spazio e forma</h2>
+          <p>Una scala corta evita proporzioni arbitrarie e mantiene il carattere morbido del prototipo.</p>
+        </div>
+      </header>
+      <div class="mechanics-grid">
+        <article class="mechanics-card">
+          <h3>Scala di spaziatura</h3>
+          <p>Base 4 px, ritmo principale 8 px.</p>
+          <div class="space-list">
+            <div class="space-row"><span>01</span><i class="space-bar" style="--bar-width:4px"></i><code>4</code></div>
+            <div class="space-row"><span>02</span><i class="space-bar" style="--bar-width:8px"></i><code>8</code></div>
+            <div class="space-row"><span>03</span><i class="space-bar" style="--bar-width:12px"></i><code>12</code></div>
+            <div class="space-row"><span>04</span><i class="space-bar" style="--bar-width:16px"></i><code>16</code></div>
+            <div class="space-row"><span>06</span><i class="space-bar" style="--bar-width:24px"></i><code>24</code></div>
+            <div class="space-row"><span>08</span><i class="space-bar" style="--bar-width:32px"></i><code>32</code></div>
+            <div class="space-row"><span>12</span><i class="space-bar" style="--bar-width:48px"></i><code>48</code></div>
+            <div class="space-row"><span>16</span><i class="space-bar" style="--bar-width:64px"></i><code>64</code></div>
+            <div class="space-row"><span>24</span><i class="space-bar" style="--bar-width:96px"></i><code>96</code></div>
+          </div>
+        </article>
+        <article class="mechanics-card">
+          <h3>Raggi</h3>
+          <p>Tre raggi semantici, più la pillola.</p>
+          <div class="radius-list">
+            <div class="radius-sample radius-control"><span>Controllo</span><code>12</code></div>
+            <div class="radius-sample radius-card"><span>Card</span><code>20</code></div>
+            <div class="radius-sample radius-panel"><span>Pannello</span><code>32</code></div>
+            <div class="radius-sample radius-pill"><span>Pillola</span><code>999</code></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="grid-title">
+      <header class="section-intro">
+        <span class="section-number">09</span>
+        <div class="section-copy">
+          <h2 id="grid-title">Griglia</h2>
+          <p>La composizione conserva il respiro dei prototipi, ma smette di dipendere da coordinate fisse.</p>
+        </div>
+      </header>
+      <div class="grid-demo" role="img" aria-label="Griglia desktop a dodici colonne">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="grid-note">
+        <span class="metric-pill">Canvas 1440</span>
+        <span class="metric-pill">Contenuto max 1344</span>
+        <span class="metric-pill">12 colonne</span>
+        <span class="metric-pill">Gutter 24</span>
+        <span class="metric-pill">Margine 48</span>
+        <span class="metric-pill">Header 80</span>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="density-title">
+      <header class="section-intro">
+        <span class="section-number">10</span>
+        <div class="section-copy">
+          <h2 id="density-title">Due densità</h2>
+          <p>La stessa identità assume il ritmo più adatto al momento dell’esperienza.</p>
+        </div>
+      </header>
+      <div class="density-grid">
+        <article class="density-card density-orientation">
+          <span class="density-label">Orientamento</span>
+          <h3>Uno spazio per capire dove sei.</h3>
+          <p>Accesso, cruscotto e ingresso nelle aree: grandi gerarchie, poche decisioni, una firma emotiva.</p>
+        </article>
+        <article class="density-card density-operational">
+          <span class="density-label">Operativa</span>
+          <h3>Un ritmo per portare a termine il lavoro.</h3>
+          <p>Registri, generatori e amministrazione: righe compatte, metadati leggibili e azioni persistenti.</p>
+          <div class="operational-list" aria-label="Esempio di densità operativa">
+            <div class="operational-row"><span>VERB-2026-013</span><span>Approvato</span></div>
+            <div class="operational-row"><span>VERB-2026-012</span><span>Da verificare</span></div>
+            <div class="operational-row"><span>VERB-2026-010</span><span>In revisione</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="interaction-title">
+      <header class="section-intro">
+        <span class="section-number">11</span>
+        <div class="section-copy">
+          <h2 id="interaction-title">Interazione accessibile</h2>
+          <p>Stati visibili, target adeguati e movimento sobrio rendono il sistema affidabile.</p>
+        </div>
+      </header>
+      <div class="interaction-grid">
+        <article class="interaction-panel">
+          <h3>Azioni e focus</h3>
+          <p>Il blu concentra l’attenzione. Usa Tab per verificare l’anello di focus.</p>
+          <div class="action-row">
+            <button class="foundation-button foundation-button-primary" type="button">Azione principale</button>
+            <button class="foundation-button foundation-button-secondary" type="button">Secondaria</button>
+            <button class="foundation-button" type="button" disabled>Non disponibile</button>
+          </div>
+        </article>
+        <article class="interaction-panel">
+          <h3>Movimento</h3>
+          <p>Feedback rapido, cambi di contesto leggermente più distesi.</p>
+          <div class="motion-list">
+            <div class="motion-item"><strong>140 ms</strong><span>Hover, pressione, focus</span></div>
+            <div class="motion-item"><strong>220 ms</strong><span>Apertura e cambio contesto</span></div>
+            <div class="motion-item"><strong>Ridotto</strong><span>Rispetta le preferenze di sistema</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="foundation-section" aria-labelledby="emotion-title">
+      <header class="section-intro">
+        <span class="section-number">12</span>
+        <div class="section-copy">
+          <h2 id="emotion-title">Emozione, con disciplina</h2>
+          <p>Un momento espressivo nei contesti di orientamento. Nessuna decorazione sopra il lavoro.</p>
+        </div>
+      </header>
+      <div class="material-panel">
+        <div class="material-copy">
+          <span>Identità di progetto · esempio</span>
+          <blockquote>Cavallerizza.<br />Ogni decisione lascia una traccia.</blockquote>
+          <p>La superficie calda, la sigla e la voce rendono riconoscibile l’area. Nel registro e nel generatore restano soltanto il contesto e i dati necessari.</p>
+        </div>
+      </div>
+    </section>
+    </details>
+
+    <footer class="foundation-footer">
+      <strong>Queste fondazioni sono la sorgente per tutte le prossime schermate SECAP PRO.</strong>
+      <span>Versione 1.0 · 03.09.2026</span>
+    </footer>
+  </main>
+  <script src="assets/ui-kit.js?v=1.1" defer></script>
+</body>
+</html>
